@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+}
+.wrappe{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(1 6 4 / 70%);
+}
+.container{
+    width: 823px;
+    height: 557px;
+  
+    display: flex;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    box-shadow: 3px 0px 35px 3px;
+    border-radius: 50px;
+    transform: translate(-50%, -50%);
+}
+.left{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(36 189 115 / 76%);
+    position: relative;
+    border-radius: 50px 0px 0px 50px;
+}
+.register{
+    text-transform: uppercase;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 54px;
+    line-height: 106px;
+    color: #fff1f1e3;
+}
+.right{
+    border-radius: 0px 50px 50px 0px;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.complately{
+    word-spacing: 16px;
+    color: #fff;
+    font-size: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px 0px;
+}
+.lavel {
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 20px;
+    outline: none;
+    padding-top: 20px;
+}
+.fir{
+    border: none;
+    background-color: #000000;
+    width: 337px;
+    height: 26px;
+    margin-left: 20px;
+    margin-bottom: 18px;
+}
+.fir::placeholder{
+    color: #fff;
+    font-size: 32px;
+}
+.craete{
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 50px;
+    border: none;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    box-shadow: 0px -5px 6px 0px;
+    background-color: rgb(36 189 115 / 76%);
+}
